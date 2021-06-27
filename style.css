@@ -144,6 +144,9 @@ p{
     z-index: 1;
     overflow: hidden;
 }
+#services .service-item:hover{
+    cursor: pointer;
+}
 #services .service-item::after{
     content: '';
     position: absolute ;
